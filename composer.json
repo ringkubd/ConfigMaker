@@ -1,0 +1,28 @@
+{
+    "name": "anwar/config-maker",
+    "description": "Laravel configuration file create,edit,update and delete",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ringkubd",
+            "email": "ajr.jahid@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Anwar\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anwar\\ConfigMaker\\ConfigMakerProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
