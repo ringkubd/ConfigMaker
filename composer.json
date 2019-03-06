@@ -2,6 +2,7 @@
     "name": "anwar/config-maker",
     "description": "Laravel configuration file create,edit,update and delete",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "ringkubd",
