@@ -22,6 +22,8 @@
                 "Anwar\\ConfigMaker\\ConfigMakerProvider"
             ],
             "aliases": {
+                "ConfigMakerBaseCreator":"Anwar\\ConfigMaker\\Helpers\\BaseCreatorFacade",
+                "ConfigMakerFileHandle":"Anwar\\ConfigMaker\\Helpers\\BaseFileHandleFacade"
             }
         }
     }

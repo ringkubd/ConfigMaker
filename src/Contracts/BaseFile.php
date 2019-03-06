@@ -34,7 +34,7 @@ interface BaseFile{
      * @desc delete a key
      */
 
-    public function removeData($key);
+    public function removeData($filename,$key);
 
     /**
      * @param $filename
@@ -43,6 +43,13 @@ interface BaseFile{
 
     public function deletefile($filename);
 
+    /**
+     * @param $filename
+     * @param $key
+     * @param $value
+     * @return mixed
+     */
+    public function addToConfig($filename,$key,$value);
 
 
 
